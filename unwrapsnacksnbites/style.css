@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: "Roboto Slab", serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-1 {
+    height: 38px;
+    background: #2980b9;
+    border: none;
+    color: #f4f4f4;
+    padding: 0 20px;
+}
+
+.dark {
+    background: #35424a;
+    color: #f4f4f4;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+header {
+    background: #35424a;
+    color: #f4f4f4;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #e74636 3px solid;
+}
+
+header a {
+    color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .active a {
+    color: #e74636;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #f4f4f4;
+}
+
+#showcase {
+    height: 400px;
+    background: linear-gradient(#373b44, #4286f4);
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#showcase h2 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #f4f4f4;
+    background: #35424a;
+}
+
+#newsletter h2 {
+    float: left;
+    font-size: 25px;
+}
+
+#newsletter form  {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type='email'] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 200px;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #e6e6e6;
+    background-color: #35424a;
+    text-align: center;
+}

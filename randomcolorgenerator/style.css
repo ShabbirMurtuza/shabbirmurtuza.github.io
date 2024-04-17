@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.current-color {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+
+.generate-btn {
+    padding: 16px 32px;
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow:0 0 3px #000 ;
+}
